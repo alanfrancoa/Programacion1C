@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int base, altura, area, perimetro;
+    printf("Ingrese base:");
+    scanf("%d", &base);
+    printf("Ingrese altura:");
+    scanf("%d", &altura);
+    area = base*altura;
+    perimetro = (base*2)+(altura*2);
+    printf("El perimetro de la figura es: %i \n", perimetro);
+    printf("El area de la figura es: %i", area);
+    return 0;
+}
