@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+
+int main()
+{   
+    //Instanciacion
+        //Variables de entrada
+        int num;
+
+    //Ingreso
+    printf("Ingrese numero: \n");
+    scanf("%i", &num);
+    
+    //Proceso y Salida
+    if (num > 0){
+        printf("El numero ingresado es positivo  \n");
+    } else if (num < 0){
+        printf("El numero ingresado es negativo \n");
+    } else {
+        printf("El numero ingresado es neutro \n");
+    }
+
+    return 0;
+}
