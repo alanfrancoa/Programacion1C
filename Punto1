@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{   
+    //Instanciacion
+        //Variables de entrada
+        int num1, num2, num3, num4, num5;
+        //Variable de salida
+        float media;
+    //Ingreso
+    printf("Ingrese primer numero: \n");
+    scanf("%i", &num1);
+    printf("Ingrese segundo numero: \n");
+    scanf("%i", &num2);
+    printf("Ingrese tercer numero: \n");
+    scanf("%i", &num3);
+    printf("Ingrese cuarto numero: \n");
+    scanf("%i", &num4);
+    printf("Ingrese quinto numero: \n");
+    scanf("%i", &num5);
+    
+    //Proceso
+    media = (num1 + num2 + num3 + num4 + num5) /5;
+    
+    //Salida
+    printf("La media de los numeros ingresados es: %f \n", media);
+    
+    return 0;
+}
