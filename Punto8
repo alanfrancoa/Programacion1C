@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+
+int main()
+{   
+    //Celcuis a Fahrenheit
+    //Instanciacion
+        //Variables de entrada
+        float celcius;
+        //Variables de salida
+        float fhrt;
+    //Ingreso
+    printf("Ingrese numero: \n");
+    scanf("%f", &celcius);
+    
+    //Proceso
+    fhrt = (celcius * 9/5) + 32;
+    
+    //Salida
+    printf("Usted ingreso %.2fºC \n", celcius);
+    printf("Son %.2f ºF \n", fhrt);
+    //%.2f muestra solo dos decimales despues de la coma.
+    
+    return 0;
+}
