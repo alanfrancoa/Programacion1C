@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+int main()
+{   
+    //Instanciacion
+        //Variables de entrada
+        int num;
+
+    //Ingreso
+    printf("Ingrese numero: \n");
+    scanf("%i", &num);
+    
+    //Proceso y Salida
+    if (num % 2 == 0){
+        printf("El numero ingresado es par  \n");
+
+    } else {
+        printf("El numero ingresado es impar \n");
+    }
+
+    return 0;
+}
