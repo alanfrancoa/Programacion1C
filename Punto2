@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+
+int main()
+{   
+    //Instanciacion
+        //Variables de entrada
+        int num;
+        //Variable de salida
+        int cuadrado;
+    //Ingreso
+    printf("Ingrese primer numero: \n");
+    scanf("%i", &num);
+    
+    //Proceso y Salida
+    if (num > 0){
+        cuadrado = num * num;
+        printf("Numero ingresado, mayor a cero: Resultado %i", cuadrado);
+    } else {
+        printf("Numero ingresado menor a cero");
+    }
+
+    return 0;
+}
