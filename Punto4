@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int radio;
+    float area, perimetro;
+    area=0;
+    perimetro=0;
+    printf("Ingrese radio:");
+    scanf("%d", &radio);
+
+    area = (radio*radio)*3.14;
+    perimetro = (radio*2)*3.14;
+    
+    printf("El perimetro de la figura es: %f \n", perimetro);
+    printf("El area de la figura es: %f", area);
+    return 0;
+}
